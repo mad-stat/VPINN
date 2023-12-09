@@ -1,6 +1,6 @@
 # Van der Pol-informed Neural Networks for Multi-step-ahead Forecasting of Extreme Climatic Events
 
-In this study, we propose a novel Van der Pol-informed Neural Networks (VPINN) model for generating multi-speed forecasts of extreme climatic events. The VPINN framework leverages the dynamics of the Van der Pol oscillatory system to generate reliable forecasts in chaotic datasets. Our study considers publicly available real-world climatic datasets namely[1-2] -  Turkey seismic waves, El Niño sea surface temperature, Philippines temperature, Madrid humidity, and Delhi wind speed to analyze the forecasting ability of our proposed model. A graphical representation of the study is provided below:
+In this study, we propose a novel Van der Pol-informed Neural Networks (VPINN) model for generating multi-step forecasts of extreme climatic events. The VPINN framework leverages the dynamics of the Van der Pol oscillatory system to generate reliable forecasts in chaotic datasets. Our study considers publicly available real-world climatic datasets namely -  Turkey seismic waves, El Niño sea surface temperature, Philippines temperature, Madrid humidity, and Delhi wind speed[1-2] to analyze the forecasting ability of our proposed model. A graphical representation of the study is provided below:
 ![Poster](https://github.com/mad-stat/VPINN/blob/main/Codes/New_Poster.png)
 
 Usage of the repository for the paper "Van der Pol-informed Neural Networks for Multi-step-ahead Forecasting of Extreme Climatic Events [3]".
@@ -9,7 +9,7 @@ Usage of the repository for the paper "Van der Pol-informed Neural Networks for 
   
 * Subsequently, the VPINN model having been pre-trained with the dynamics of the non-linear system models the real-world datasets using an LSTM network with physics-informed loss regularization.
   
-* This framework transfers its knowledge gained from the Van der Pol oscillator through the time derivates and models them along with the real-world climatic data in a multivariate setting.
+* This framework transfers its knowledge gained from the Van der Pol oscillator through the time derivates and analyzes them along with the real-world climatic data in a multivariate setting.
 
 * In the model training the architecture leverages a combination of data-centric loss and a physics-informed loss function to enforce the dynamics of the Van der Pol oscillator on the prediction.
   
